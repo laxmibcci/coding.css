@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* 1st class */
+      /* .box {
+        background-color: aqua;
+        border: 5px solid black;
+        height: 500px;
+        width: 500px;
+      }
+      @media (min-width: 500px) and (max-width: 600px) {
+        .box {
+          background-color: red;
+        }
+      } */
+/* 
+      .container{
+        background-color: rgb(167, 167, 231);
+        height: 1200px;
+        width: 1200px;
+        border: 2px solid black;
+        margin: 1px;
+        padding: 1px;
+        display: flex;
+
+      }
+
+      .box
+      {
+        border: 2px solid black;
+        height: 200px;
+        width: 200px;
+        margin: 2px;
+        padding: 2px;
+        
+
+        }
+
+        #box1{
+            background-color: rosybrown;
+
+        }
+        #box2{
+            background-color: aliceblue;
+
+        }
+        #box3{
+            background-color: blueviolet;
+        }
+        #box4{
+            background-color: aquamarine;
+        }
+
+        @media (min-width:300px) {
+            .container{
+            
+                flex-direction: row;
+            }
+        }
+
+            @media (max-width:300px) {
+                .container{
+                    
+                    flex-direction: column;
+                }
+            } */
+
+            .container{
+                background-color:bisque ;
+                border: 2px solid black;
+                display: flex;
+                flex-direction: row;
+                width: 450px;
+                padding: 2px;
+                margin: 10px;
+
+            }
+
+            #boxleft{
+                background-color: aquamarine;
+                border: 1px solid blue;
+                width: 47%;
+                margin: 3px;
+                padding: 2px;
+                display: flex;
+                flex-direction: column;
+            }
+                
+
+            #boxright{
+                background-color: yellow;
+                border: brown;
+                width: 47%;
+                margin: 3px;
+                padding: 2px;
+            }
+
+            p{
+                border: 1px solid red;
+            }
+
+            @media (max-width:640px) {
+                .container{
+                    flex-direction: column;
+                }
+            }
+
+        
+        
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box">hello ji</div> -->
+
+    <!-- <div class="container">
+      <div class="box" id="box1">box1</div>
+      <div class="box" id="box2">box2</div>
+      <div class="box" id="box3">box3</div>
+      <div class="box" id="box4">box4</div>
+    </div> -->
+    <div class="container">
+        <div id="boxleft">
+            <p>text1</p>
+            <p>text2</p>
+        </div>
+
+        <div id="boxright">
+            <img src="./ai-generated-8202190_1280.jpg" height="200px" width="210px"  alt="">
+        </div>
+    </div>
+  </body>
+</html>
